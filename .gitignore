@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model and data artifacts
+models/*.keras
+models/*.h5
+models/*.png
+models/*.jpg
+!models/.gitkeep
+
+data/*
+!data/.gitkeep
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
